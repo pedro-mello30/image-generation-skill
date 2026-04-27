@@ -1,0 +1,36 @@
+# Generated artifacts (per-run, not part of the skill)
+output/*.png
+output/*.jpg
+output/*.jpeg
+output/*.webp
+prompt.json
+paper.md
+summary.md
+
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.uv/
+uv.lock
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local Cursor / Claude install copies (the skill ships from repo root,
+# not from .cursor/skills/)
+.cursor/skills/
+.claude/skills/
+
+# Provider config (machine-specific, may reference env var names)
+config.json
+
+# Misc
+.env
+.env.local
+*.log
